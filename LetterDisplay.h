@@ -7,7 +7,7 @@
 
 #define LED_DELAY 1
 
-void LEDon(int vin, int gnd)
+void FORKYOUR_LEDon_MF(int vin, int gnd)
 {
   pinMode(0, INPUT);
   pinMode(1, INPUT);
@@ -25,414 +25,414 @@ void LEDon(int vin, int gnd)
   delay(LED_DELAY);
 }
 
-void allOn()
+void FORKYOUR_allOn_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 2);
-  LEDon(1, 3);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 1);
-  LEDon(3, 2);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 2);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 1);
+  FORKYOUR_LEDon_MF(3, 2);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showA()
+void FORKYOUR_showA_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 1);
-  LEDon(4, 2);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
 }
 
-void showB()
+void FORKYOUR_showB_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
 }
 
-void showC()
+void FORKYOUR_showC_MF()
 {
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 1);
-  LEDon(4, 2);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
 }
 
-void showD()
+void FORKYOUR_showD_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2); 
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2); 
 }
 
-void showE()
+void FORKYOUR_showE_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(2, 0);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 0);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showF()
+void FORKYOUR_showF_MF()
 {
-  LEDon(0, 1);
-  LEDon(1, 0);
-  LEDon(2, 0);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 0);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showG()
+void FORKYOUR_showG_MF()
 {
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 3);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showH()
+void FORKYOUR_showH_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showI()
+void FORKYOUR_showI_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(0, 4);
-  LEDon(1, 2);
-  LEDon(1, 3);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 1);
-  LEDon(3, 2);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 2);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 1);
+  FORKYOUR_LEDon_MF(3, 2);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showJ()
+void FORKYOUR_showJ_MF()
 {
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 4);
-  LEDon(3, 4);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showK()
+void FORKYOUR_showK_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 3);
-  LEDon(2, 0);
-  LEDon(2, 1);
-  LEDon(3, 0);
-  LEDon(3, 2);
-  LEDon(4, 0);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 2);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showL()
+void FORKYOUR_showL_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(2, 0);
-  LEDon(3, 0);
-  LEDon(4, 0);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(4, 0);
 }
 
-void showM()
+void FORKYOUR_showM_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 1);
-  LEDon(3, 2);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 1);
+  FORKYOUR_LEDon_MF(3, 2);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showN()
+void FORKYOUR_showN_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 3);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 3);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 1);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 1);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showO()
+void FORKYOUR_showO_MF()
 {
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 1);
-  LEDon(4, 2);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
 }
 
-void showP()
+void FORKYOUR_showP_MF()
 {
-  LEDon(0, 1);
-  LEDon(1, 0);
-  LEDon(2, 0);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
 }
 
-void showQ()
+void FORKYOUR_showQ_MF()
 {
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 3);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 1);
-  LEDon(4, 2);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
 }
 
-void showR()
+void FORKYOUR_showR_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 3);
-  LEDon(2, 0);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
 }
 
-void showS()
+void FORKYOUR_showS_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 4);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showT()
+void FORKYOUR_showT_MF()
 {
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 2);
-  LEDon(1, 3);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 1);
-  LEDon(3, 2);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 2);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 1);
+  FORKYOUR_LEDon_MF(3, 2);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showU()
+void FORKYOUR_showU_MF()
 {
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showV()
+void FORKYOUR_showV_MF()
 {
-  LEDon(0, 2);
-  LEDon(1, 0);
-  LEDon(1, 3);
-  LEDon(2, 0);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showW()
+void FORKYOUR_showW_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 2);
-  LEDon(1, 3);
-  LEDon(1, 4);
-  LEDon(2, 0);
-  LEDon(2, 4);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 2);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 0);
+  FORKYOUR_LEDon_MF(2, 4);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showX()
+void FORKYOUR_showX_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 4);
-  LEDon(1, 0);
-  LEDon(1, 4);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 0);
+  FORKYOUR_LEDon_MF(1, 4);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showY()
+void FORKYOUR_showY_MF()
 {
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(1, 2);
-  LEDon(1, 3);
-  LEDon(2, 1);
-  LEDon(2, 3);
-  LEDon(3, 0);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(1, 2);
+  FORKYOUR_LEDon_MF(1, 3);
+  FORKYOUR_LEDon_MF(2, 1);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 0);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 3);
 }
 
-void showZ()
+void FORKYOUR_showZ_MF()
 {
-  LEDon(0, 1);
-  LEDon(0, 2);
-  LEDon(0, 3);
-  LEDon(0, 4);
-  LEDon(1, 2);
-  LEDon(2, 3);
-  LEDon(3, 4);
-  LEDon(4, 0);
-  LEDon(4, 1);
-  LEDon(4, 2);
-  LEDon(4, 3);
+  FORKYOUR_LEDon_MF(0, 1);
+  FORKYOUR_LEDon_MF(0, 2);
+  FORKYOUR_LEDon_MF(0, 3);
+  FORKYOUR_LEDon_MF(0, 4);
+  FORKYOUR_LEDon_MF(1, 2);
+  FORKYOUR_LEDon_MF(2, 3);
+  FORKYOUR_LEDon_MF(3, 4);
+  FORKYOUR_LEDon_MF(4, 0);
+  FORKYOUR_LEDon_MF(4, 1);
+  FORKYOUR_LEDon_MF(4, 2);
+  FORKYOUR_LEDon_MF(4, 3);
 }
