@@ -37,33 +37,33 @@ void showLetterForState(state current)
 {
   switch (current)
   {
-    case STATE_A: showA(); break;
-    case STATE_B: showB(); break;
-    case STATE_C: showC(); break;
-    case STATE_D: showD(); break;
-    case STATE_E: showE(); break;
-    case STATE_F: showF(); break;
-    case STATE_G: showG(); break;
-    case STATE_H: showH(); break;
-    case STATE_I: showI(); break;
-    case STATE_J: showJ(); break;
-    case STATE_K: showK(); break;
-    case STATE_L: showL(); break;
-    case STATE_M: showM(); break;
-    case STATE_N: showN(); break;
-    case STATE_O: showO(); break;
-    case STATE_P: showP(); break;
-    case STATE_Q: showQ(); break;
-    case STATE_R: showR(); break;
-    case STATE_S: showS(); break;
-    case STATE_T: showT(); break;
-    case STATE_U: showU(); break;
-    case STATE_V: showV(); break;
-    case STATE_W: showW(); break;
-    case STATE_X: showX(); break;
-    case STATE_Y: showY(); break;
-    case STATE_Z: showZ(); break;
-    default:      allOn(); break;
+    case STATE_A: FORKYOUR_showA_MF(); break;
+    case STATE_B: FORKYOUR_showB_MF(); break;
+    case STATE_C: FORKYOUR_showC_MF(); break;
+    case STATE_D: FORKYOUR_showD_MF(); break;
+    case STATE_E: FORKYOUR_showE_MF(); break;
+    case STATE_F: FORKYOUR_showF_MF(); break;
+    case STATE_G: FORKYOUR_showG_MF(); break;
+    case STATE_H: FORKYOUR_showH_MF(); break;
+    case STATE_I: FORKYOUR_showI_MF(); break;
+    case STATE_J: FORKYOUR_showJ_MF(); break;
+    case STATE_K: FORKYOUR_showK_MF(); break;
+    case STATE_L: FORKYOUR_showL_MF(); break;
+    case STATE_M: FORKYOUR_showM_MF(); break;
+    case STATE_N: FORKYOUR_showN_MF(); break;
+    case STATE_O: FORKYOUR_showO_MF(); break;
+    case STATE_P: FORKYOUR_showP_MF(); break;
+    case STATE_Q: FORKYOUR_showQ_MF(); break;
+    case STATE_R: FORKYOUR_showR_MF(); break;
+    case STATE_S: FORKYOUR_showS_MF(); break;
+    case STATE_T: FORKYOUR_showT_MF(); break;
+    case STATE_U: FORKYOUR_showU_MF(); break;
+    case STATE_V: FORKYOUR_showV_MF(); break;
+    case STATE_W: FORKYOUR_showW_MF(); break;
+    case STATE_X: FORKYOUR_showX_MF(); break;
+    case STATE_Y: FORKYOUR_showY_MF(); break;
+    case STATE_Z: FORKYOUR_showZ_MF(); break;
+    default:      FORKYOUR_allOn_MF(); break;
   }
 }
 
